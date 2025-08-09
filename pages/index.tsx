@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React, {useState} from 'react';
-
+import Image from 'next/image';
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="flex-1 mb-8 md:mb-0 md:mr-16 relative">
             <div className="absolute inset-0 bg-gradient-to-br from-pink-500 to-orange-500 rounded-full blur-2xl opacity-50"></div>
             <div className="relative z-10 w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-pink-300">
-              <img src="https://placehold.co/256x256/FFC0CB/000?text=Pritam" alt="Pritam's profile" className="w-full h-full object-cover" />
+              <Image src="https://placehold.co/256x256/FFC0CB/000?text=Pritam" alt="Pritam's profile" className="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -117,7 +117,7 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row items-center mb-20 md:space-x-12 group">
             <div className="flex-1 mb-8 md:mb-0 transform transition duration-500 group-hover:scale-105">
-              <img
+              <Image
                 src="/Pin on templates.jpg"
                 alt="Full Stack Dev"
                 
@@ -129,7 +129,7 @@ export default function Home() {
                 Full Stack Development
               </h3>
               <p className="text-gray-200 mb-5 leading-relaxed">
-                Building robust, end-to-end web applications with clean, responsive user interfaces and scalable, secure APIs. I'm proficient in the MERN stack (React, Node.js, Express, MongoDB) to create full-featured applications.
+                Building robust, end-to-end web applications with clean, responsive user interfaces and scalable, secure APIs. I&#39;m proficient in the MERN stack (React, Node.js, Express, MongoDB) to create full-featured applications.
 
               </p>
               
@@ -138,7 +138,7 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row items-center md:space-x-12 group">
             <div className="flex-1 mb-8 md:mb-0 md:order-2 transform transition duration-500 group-hover:scale-105">
-              <img
+              <Image
                 src="/AI Developer Vector Illustration.jpg"
                 alt="AI/ML Development"
                 className="w-full h-auto rounded-xl shadow-2xl border border-white/10 hover:shadow-orange-400/40 transition-all duration-500"
@@ -160,7 +160,7 @@ Applying intelligent models to solve real-world problems. My work involves devel
           <div className="flex-1 mb-8 md:mb-0">
             <h2 className="text-4xl font-bold mb-4">CONTACT</h2>
             <p className="text-gray-600 mb-6 max-w-sm">
-              Ready to elevate your visual presence? I'm here to bring your creative visions to life. Feel free to reach out.
+              Ready to elevate your visual presence? I&#39;m here to bring your creative visions to life. Feel free to reach out.
             </p>
             <div className="space-y-4">
               <div>
