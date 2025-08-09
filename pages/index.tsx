@@ -59,7 +59,7 @@ export default function Home() {
               MY WORKS
             </button>
             <button className="border border-white text-white font-bold py-3 px-6 rounded-full hover:bg-white hover:text-black transition-colors">
-              LET'S TALK
+              LET&#39;S TALK
             </button>
           </div>
         </section>
