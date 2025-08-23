@@ -87,7 +87,7 @@ export default function Home() {
           <div className="flex-1 mb-8 md:mb-0 md:mr-16 relative">
             <div className="absolute inset-0 bg-gradient-to-br from-pink-500 to-orange-500 rounded-full blur-2xl opacity-50"></div>
             <div className="relative z-10 w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-pink-300">
-              <Image src="https://placehold.co/256x256/FFC0CB/000?text=Pritam" alt="Pritam's profile" className="w-full h-full object-cover" />
+              <Image src="/download.jpg" alt="Pritam's profile" className="w-full h-full object-cover" />
             </div>
           </div>
 
